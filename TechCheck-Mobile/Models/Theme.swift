@@ -10,7 +10,7 @@ import Foundation
 struct Theme: Identifiable {
     let id: UUID
     let title: String
-    let description: String?
+    let description: String
     let creatorId: String
     let questions: [Question]
     let createdAt: Date

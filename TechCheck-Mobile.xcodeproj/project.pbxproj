@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEDCF022296A22FB00D19667 /* TechCheckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDCF021296A22FB00D19667 /* TechCheckView.swift */; };
 		CEF3DBFD2966E91F0081A1AA /* TechCheck_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DBFC2966E91F0081A1AA /* TechCheck_MobileApp.swift */; };
 		CEF3DC012966E9200081A1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF3DC002966E9200081A1AA /* Assets.xcassets */; };
 		CEF3DC042966E9200081A1AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF3DC032966E9200081A1AA /* Preview Assets.xcassets */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CEDCF021296A22FB00D19667 /* TechCheckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCheckView.swift; sourceTree = "<group>"; };
 		CEF3DBF92966E91F0081A1AA /* TechCheck-Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TechCheck-Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF3DBFC2966E91F0081A1AA /* TechCheck_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCheck_MobileApp.swift; sourceTree = "<group>"; };
 		CEF3DC002966E9200081A1AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			children = (
 				CEF3DC272966EB330081A1AA /* TechCheckTemplatesView.swift */,
 				CEF3DC292969C6DA0081A1AA /* TechCheckTemplateDetailView.swift */,
+				CEDCF021296A22FB00D19667 /* TechCheckView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -289,6 +292,7 @@
 				CEF3DBFD2966E91F0081A1AA /* TechCheck_MobileApp.swift in Sources */,
 				CEF3DC2F2969CB380081A1AA /* Question.swift in Sources */,
 				CEF3DC282966EB330081A1AA /* TechCheckTemplatesView.swift in Sources */,
+				CEDCF022296A22FB00D19667 /* TechCheckView.swift in Sources */,
 				CEF3DC2D2969C8870081A1AA /* TechCheckTemplate.swift in Sources */,
 				CEF3DC312969CD5B0081A1AA /* Theme.swift in Sources */,
 			);
