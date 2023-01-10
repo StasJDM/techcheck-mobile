@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		CEF3DBFD2966E91F0081A1AA /* TechCheck_MobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DBFC2966E91F0081A1AA /* TechCheck_MobileApp.swift */; };
-		CEF3DBFF2966E91F0081A1AA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DBFE2966E91F0081A1AA /* ContentView.swift */; };
 		CEF3DC012966E9200081A1AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF3DC002966E9200081A1AA /* Assets.xcassets */; };
 		CEF3DC042966E9200081A1AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF3DC032966E9200081A1AA /* Preview Assets.xcassets */; };
 		CEF3DC0E2966E9200081A1AA /* TechCheck_MobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DC0D2966E9200081A1AA /* TechCheck_MobileTests.swift */; };
 		CEF3DC182966E9200081A1AA /* TechCheck_MobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DC172966E9200081A1AA /* TechCheck_MobileUITests.swift */; };
 		CEF3DC1A2966E9200081A1AA /* TechCheck_MobileUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DC192966E9200081A1AA /* TechCheck_MobileUITestsLaunchTests.swift */; };
+		CEF3DC282966EB330081A1AA /* TechCheckTemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DC272966EB330081A1AA /* TechCheckTemplatesView.swift */; };
+		CEF3DC2A2969C6DA0081A1AA /* TechCheckTemplateDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DC292969C6DA0081A1AA /* TechCheckTemplateDetailView.swift */; };
+		CEF3DC2D2969C8870081A1AA /* TechCheckTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DC2C2969C8870081A1AA /* TechCheckTemplate.swift */; };
+		CEF3DC2F2969CB380081A1AA /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DC2E2969CB380081A1AA /* Question.swift */; };
+		CEF3DC312969CD5B0081A1AA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF3DC302969CD5B0081A1AA /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +40,6 @@
 /* Begin PBXFileReference section */
 		CEF3DBF92966E91F0081A1AA /* TechCheck-Mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TechCheck-Mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF3DBFC2966E91F0081A1AA /* TechCheck_MobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCheck_MobileApp.swift; sourceTree = "<group>"; };
-		CEF3DBFE2966E91F0081A1AA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CEF3DC002966E9200081A1AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CEF3DC032966E9200081A1AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CEF3DC092966E9200081A1AA /* TechCheck-MobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TechCheck-MobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,11 @@
 		CEF3DC132966E9200081A1AA /* TechCheck-MobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TechCheck-MobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF3DC172966E9200081A1AA /* TechCheck_MobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCheck_MobileUITests.swift; sourceTree = "<group>"; };
 		CEF3DC192966E9200081A1AA /* TechCheck_MobileUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCheck_MobileUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CEF3DC272966EB330081A1AA /* TechCheckTemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCheckTemplatesView.swift; sourceTree = "<group>"; };
+		CEF3DC292969C6DA0081A1AA /* TechCheckTemplateDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCheckTemplateDetailView.swift; sourceTree = "<group>"; };
+		CEF3DC2C2969C8870081A1AA /* TechCheckTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechCheckTemplate.swift; sourceTree = "<group>"; };
+		CEF3DC2E2969CB380081A1AA /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CEF3DC302969CD5B0081A1AA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +102,9 @@
 		CEF3DBFB2966E91F0081A1AA /* TechCheck-Mobile */ = {
 			isa = PBXGroup;
 			children = (
+				CEF3DC2B2969C8690081A1AA /* Models */,
+				CEF3DC262966EADB0081A1AA /* Views */,
 				CEF3DBFC2966E91F0081A1AA /* TechCheck_MobileApp.swift */,
-				CEF3DBFE2966E91F0081A1AA /* ContentView.swift */,
 				CEF3DC002966E9200081A1AA /* Assets.xcassets */,
 				CEF3DC022966E9200081A1AA /* Preview Content */,
 			);
@@ -125,6 +134,25 @@
 				CEF3DC192966E9200081A1AA /* TechCheck_MobileUITestsLaunchTests.swift */,
 			);
 			path = "TechCheck-MobileUITests";
+			sourceTree = "<group>";
+		};
+		CEF3DC262966EADB0081A1AA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CEF3DC272966EB330081A1AA /* TechCheckTemplatesView.swift */,
+				CEF3DC292969C6DA0081A1AA /* TechCheckTemplateDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CEF3DC2B2969C8690081A1AA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CEF3DC2C2969C8870081A1AA /* TechCheckTemplate.swift */,
+				CEF3DC2E2969CB380081A1AA /* Question.swift */,
+				CEF3DC302969CD5B0081A1AA /* Theme.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +285,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEF3DBFF2966E91F0081A1AA /* ContentView.swift in Sources */,
+				CEF3DC2A2969C6DA0081A1AA /* TechCheckTemplateDetailView.swift in Sources */,
 				CEF3DBFD2966E91F0081A1AA /* TechCheck_MobileApp.swift in Sources */,
+				CEF3DC2F2969CB380081A1AA /* Question.swift in Sources */,
+				CEF3DC282966EB330081A1AA /* TechCheckTemplatesView.swift in Sources */,
+				CEF3DC2D2969C8870081A1AA /* TechCheckTemplate.swift in Sources */,
+				CEF3DC312969CD5B0081A1AA /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

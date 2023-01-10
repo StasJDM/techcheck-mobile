@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct TechCheck_MobileApp: App {
+    @State var techCheckTemplates: [TechCheckTemplate] = TechCheckTemplate.sampleData
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                TechCheckTemplatesView(techCheckTemplates: $techCheckTemplates)
+            }
         }
     }
 }
